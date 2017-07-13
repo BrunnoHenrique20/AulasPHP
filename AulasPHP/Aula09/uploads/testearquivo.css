@@ -1,0 +1,206 @@
+html{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+html, body{
+	border:0;
+	margin:0;
+	padding: 0;
+}
+.limite{
+	width: 80%;
+	margin: 0 auto; /*isso faz qui os bjetos fiqui centralizado*/
+		
+}
+.menu{
+   border-top:2px solid #ffc20c;  
+}
+
+.menu ul {
+    list-style-type: none;/*Código necesario para tira os pontinhos*/
+    margin-top: 25px;
+}
+.menu ul li{
+    display: inline; /* Códigos necesario para alinha horizontalmente os itens*/
+     padding: 16px;
+     border-right: 1px solid #dedede;
+}
+   
+.menu ul li a {
+  text-decoration: none; /* código resposavel por remor o underline do link*/
+  color: #444;
+  font-size: 12px; /*tanha da letra*/
+  transition: 0.5s;/*tempo de transmição*/
+}
+
+.menu ul li a:hover{
+  color:#ffc20c;
+}
+.logo{
+  height: 50px;
+  float:left; /* Da liberdade para outros codigos divideirem espaço com ele, significa que ele flutuara a esqueda */ 
+  transition: 0.5s;
+  padding: 5px;
+}
+ 
+  
+.logo:hover{
+  opacity: 0.5;
+	-webkit-filter: grayscale(1);
+  filter: grayscale(1);
+
+}
+.tituloamarelo{
+    margin-top:-5px;   /*Regula a distancia entre a faixa e imagem*/
+    background: #fc0;  /* cor fundo*/
+    height: 40px;      /*altura da caixa*/
+    line-height: 40px; /*Altura da linha do texto */
+    color: #fff;       /* cor do texto, codigo da cor branca */
+    text-shadow: -1px 2px 1px rgba(0, 0, 0, 0.20);/* pequena sombra no texto*/
+    font-size: 14px;   /* tamanho do texto */
+    text-align: center; /* alimamento das duas bordas de baixo*/
+    border-radius: 0px 0px 5px 5px;/* Arredondamento das bordas de baixo*/
+    
+}
+
+.coluna{
+    width: 32%;      /* lagura de cada coluna / valor de 100%  dividido para 3 coluna */
+    margin-right: 1%;/* distacia entre cada coluna */
+    height:580px;    /* Altura teporaria */
+    float: left;     /* faz com qui as colunas se alinham horizotalmente a esquerda*/
+    border-bottom: 2px solid #c1c1c1;
+    transition: 0.5;
+	margin-bottom: 20px;
+}
+.coluna:hover{
+   border-bottom: 2px solid #fc0;
+  }
+
+.coluna img{
+   transition: 0.5;
+   width: 100%;  /* Faz com que as imagem ocupe 100% do espaço da coluna*/
+ }
+
+.coluna img:hover {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.titulocomum{
+  font-size: 20px;
+  line-height:40px;
+  height:80px;
+  color: #444;
+}
+
+.paragrafodacoluna{
+  font-size: 12px;
+  line-height: 20px;
+  color: #777;
+  height: 100px;
+  text-align: justify;/*codigo para formata/justifica o texto*/
+}
+
+.botaocolona{
+  background: #f6f6f6;
+  padding: 8px 15px;
+  border-top: none;
+  border-left:none;
+  border-right: none;
+  border-bottom: 2px solid #e5e5e5;
+  border-radius: 4px;
+  color: #777;
+  font-size: 14px;
+  transition: 0.5;
+  }
+
+
+.botaocolona:hover{
+  opacity: 0.6;
+  
+}
+
+.banner{
+	width: 100%;
+	margin-top: 25px;
+}
+.barra1{
+  text-align: center;
+  background: #e05e24;
+  color: ghostwhite;
+  padding: 5px;
+}
+
+.botaolaranja{
+	background: #ce4f16;
+	color: wheat;
+	border-bottom: 2px solid #af3600;
+	border: none;
+	border-radius: 4px;
+	padding: 11px 20px 10px;	
+}
+
+.barra-amarela {
+	background:#fc0 url(imagem/padrao.gif);
+	height: 80px;
+	clear: both;	
+	transition: 0.5s;
+} 
+
+.barra-amarela:hover {
+	background: #ce4f16;
+}
+
+.barra-amarela p {
+	font-size: 2em;
+	color:black;
+	text-align: center;
+	padding: 21px;
+	transition: 0.5s;
+}
+
+.barra-amarela p:hover{
+	color: white;	
+}
+
+.autodesk {
+	float: right;
+}
+.diferencial{
+	height: 500px;
+	background-color: #efbdc;
+	background: url(imagem/nosso-diferencial.png);	
+	
+}
+.diferencial-esquerda{
+	float: left;
+	width: 50%;
+	height: 500px;
+}
+.diferencial-esquerda h1{
+	font-size: 83px;
+	font-weight: 100;
+	color: #ce4f16;
+	-webkit-margin-before: 1.8em;
+    -webkit-margin-after: 0;	
+}
+
+.diferencial-esquerda h3{
+    color: #ce4f16;
+	font-weight: 200;
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+.diferencial-direita {
+	float: right;
+	width: 50%;
+	height: 500px;
+   
+}
+.icone-diferencial{
+	width: 23%;
+	margin-right: 2%;
+	float: left;
+	text-align: center;
+	
+}

@@ -1,0 +1,28 @@
+AULA 01
+
+*Programa Utilizado: WampServer (Servidor Web - apache)
+ARQUIVOS DE CONFIGURAÇÃO:
+
+- APACHE (http.conf)
+- PHP (php.ini)
+- MYSQL (my.ini)
+
+*Localhost: enxerga após o diretório www/
+
+*Habilitar a mudança de extensão nos arquivos:
+(Painel de Controle > Opções de Pasta > Modo de Exibição > Ocultar""")
+
+*FRONTEND = Interface do Usuário ( HTML + CSS + JAVASCRIPT )
+*BACKEND = Código PHP
+
+*Editor de Texto Utilizado: DREAMWAVER CC 2017
+- Formatar Código Fonte 
+(Formatar Código de Origem > Conf de Formatação de Código > Interface)
+
+- Comando para escrever na tela: ECHO ou PRINT
+
+- Criando Variaveis: $
+- Criando Constantes: define();
+
+*O PHP permite que variáveis do tipo inteiro sejam armazenadas
+também no tipo double, por causa da sua Tipagem dinâmica

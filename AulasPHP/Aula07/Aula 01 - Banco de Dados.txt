@@ -1,0 +1,34 @@
+Aula 01 de Banco de Dados:
+
+CRUD:
+Create
+Read
+Update
+Delete
+
+HeidiSQL: Software que gerencia a interface do Banco de Dados criado no SGBD(MySQL)
+
+SGBD: Sistema de Gerenciamento de Banco de Dados
+
+Microsoft Workbench: Faz a Modelagem do Banco de Dados (opc)
+
+*Gerenciador de Sessões:
+- Servidor / IP : localhost ou 127.0.01 se for para conectar na própria máquina, ou um
+IP remoto para criar uma sessão remota.
+
+*Bancos de Dados:
+- information_schema: Salva as informações dos Bancos de Dados que serão criados.
+- 
+
+DDL: Linguagem de Definição de Dados (Create,Alter,Delete)
+DML: Linguagem de Manipulação de Dados (Insert,Update,Delete)
+DQL: Linguagem de Consulta de Dados (Select)
+
+- Todas essas linguagens acima fazem parte da Linguagem SQL.
+
+*Tipo de Dados ENUM: É a String Limitada a apenas algumas opções estabelecidas
+
+*Atalhos para o HeidiSQL:
+
+- CTRL+O: Na guia Consulta, abrir um arquivo .sql
+- F9: Executa o comando SQL
